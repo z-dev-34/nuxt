@@ -1,1 +1,1 @@
-export { default as users } from "./users";
+export { users,getUserByEmail } from "./users";

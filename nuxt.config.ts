@@ -7,5 +7,6 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     mongodbUri: process.env.MONGODB_URI,
+    secretKey: process.env.SECRET_KEY
   },
 })

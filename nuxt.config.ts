@@ -9,4 +9,6 @@ export default defineNuxtConfig({
     mongodbUri: process.env.MONGODB_URI,
     secretKey: process.env.SECRET_KEY
   },
+  css: ['~/assets/css/main.scss']
+
 })

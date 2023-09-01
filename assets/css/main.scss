@@ -1,0 +1,22 @@
+@import './_variables';
+@import './_mixincs.scss';
+@import './_placeholder';
+
+*,::after,::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+div#__nuxt {
+    max-width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-main {
+   
+}
+.section-header {
+    background-color: $primary;
+}
